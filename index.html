@@ -1,0 +1,638 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>滕王阁</title>
+<style type="text/css">
+.背景{
+	width:1000px;
+	height:100%;
+	background-color:white;
+	margin:auto;}
+.顶柱1,.顶柱2{
+	width:10px;
+	height:20px;
+	background-color:#205d61;
+	}
+.顶柱3,.顶柱4{
+	width:10px;
+	height:10px;
+	background-color:#205d61;
+	}
+.顶柱1{
+	float:left;
+	margin-left:10px;
+	margin-top:-20px;}
+.顶柱2{
+	float:right;
+	margin-right:10px;
+	margin-top:-20px;}
+.顶柱3{
+	float:left;
+	margin-left:0px;
+	margin-top:-10px;}
+.顶柱4{
+	float:right;
+	margin-right:0px;
+	margin-top:-10px;}
+
+.屋顶{       
+        width: 300px;     
+        border-bottom: 100px solid #2f7277; 
+		border-top: 50px solid transparent;  
+        border-left: 200px solid transparent;          
+        border-right: 200px solid transparent;      
+           } 
+.第一层wy{
+	 	width: 380px;     
+        border-bottom: 40px solid transparent ; 
+		border-top: 8px solid #900;  
+        border-left: 160px solid transparent;          
+        border-right: 160px solid transparent;  
+	    margin-top:-50px;
+	}
+.第二层wy{
+	 	width: 600px;
+		height:50px;
+		background-color:#C00;
+		margin-left:45px;
+		overflow:hidden;
+	}
+.paizi{
+	width:150px;
+	height:45px;
+	background-color:#F90;
+	margin-left:225px;
+	margin-top:5px;
+	overflow:hidden;}
+.pz2{
+	width: 135px;
+	height: 38px;
+	background-color: #36C;
+	margin-left: 7px;
+	margin-top: 3.5px;
+	font-family: "华文新魏";
+	text-align: center;
+	font-size: 36px;
+}
+.一楼{
+	width:580px;
+	height:150px;
+	background-color:#FCC;
+	margin-left:55px;
+	margin-top:3px;
+	overflow:hidden;}
+.zhuzi1,.zhuzi2,.zhuzi3,.zhuzi4,.zhuzi5,.zhuzi6,.zhuzi7,.zhuzi8,.zhuzi9,.zhuzi10,zhuzi11{
+	width:10px;
+	height:150px;
+	background-color:#CCC;	
+	}
+.ch1,.ch2,.ch3,.ch4,.ch5,.ch6,.ch7,.ch8,.ch9,.ch10{
+	width:90px;
+	height:150px;
+	background-color:#F60;
+	overflow:hidden;}
+.chz1,.chz2,.chz3,.chz4,.chz5,.chz6,.chz7,.chz8,.chz9,.chz10{
+	width:80px;
+	height:140px;
+	background-color:#FC3;
+	float:left;}
+.zhuzi1{
+	margin-left:10px;
+	float:left;}
+.chz1{
+	margin-left:5px;
+	margin-top:5px;
+	float:left;}
+.zhuzi2{
+	float:left;
+	margin-left:120px;
+	margin-top:-150px;}
+.ch2{
+	float:left;
+	margin-top:-150px;
+	margin-left:130px;}
+.chz2{
+	margin-left:5px;
+	margin-top:5px;
+	float:left;}
+.zhuzi3{
+	float:left;
+	margin-left:230px;
+	margin-top:-150px;}
+.ch3{
+	float:left;
+	margin-top:-150px;
+	margin-left:240px;}
+.chz3{
+	margin-left:5px;
+	margin-top:5px;
+	float:left;}
+.zhuzi4{
+	float:left;
+	margin-left:340px;
+	margin-top:-150px;}
+.ch4{
+	float:left;
+	margin-top:-150px;
+	margin-left:350px;}
+.chz4{
+	margin-left:5px;
+	margin-top:5px;
+	float:left;}
+.zhuzi5{
+	float:left;
+	margin-left:450px;
+	margin-top:-150px;}
+.ch5{
+	float:left;
+	margin-top:-150px;
+	margin-left:460px;}
+.chz5{
+	margin-left:5px;
+	margin-top:5px;
+	float:left;}
+.zhuzi6{
+	float:left;
+	margin-left:560px;
+	margin-top:-150px;}
+.ch6{
+	float:left;
+	margin-top:-150px;
+	margin-left:570px;}
+.chz6{
+	margin-left:5px;
+	margin-top:5px;
+	float:left;}
+.zhuzi7{
+	float:left;
+	margin-left:680px;
+	margin-top:-150px;}
+.ch7{
+	float:left;
+	margin-top:-150px;
+	margin-left:690px;}
+.chz7{
+	margin-left:5px;
+	margin-top:5px;
+	float:left;}
+.zhuzi8{
+	float:left;
+	margin-left:800px;
+	margin-top:-150px;}
+.ch8{
+	float:left;
+	margin-top:-150px;
+	margin-left:810px;}
+.chz8{
+	margin-left:5px;
+	margin-top:5px;
+	float:left;}
+.zhuzi9{
+	float:left;
+	margin-left:920px;
+	margin-top:-150px;}
+.ch9{
+	float:left;
+	margin-top:-150px;
+	margin-left:930px;}
+.chz9{
+	margin-left:5px;
+	margin-top:5px;
+	float:left;}
+.zhuzi10{
+	float:left;
+	margin-left:1040px;
+	margin-top:-150px;}
+.ch10{
+	float:left;
+	margin-top:-150px;
+	margin-left:1050px;}
+.chz10{
+	margin-left:5px;
+	margin-top:5px;
+	float:left;}
+
+.二楼第二层wy{
+	 	width: 600px;
+		height:25px;
+		background-color:#C00;
+		margin-left:45px;
+	}
+.二楼屋檐{       
+        width: 550px;     
+        border-bottom: 300px solid transparent; 
+		border-top: 30px solid #2f7277;  
+        border-left: 50px solid transparent;          
+        border-right: 50px solid transparent; 
+		margin-left:20px;
+           } 
+.二楼第一层wy{
+	 	width: 500px;     
+        border-bottom:200px solid transparent ; 
+		border-top: 20px solid #900;  
+        border-left: 50px solid transparent;          
+        border-right: 50px solid transparent;  
+		margin-top:-25px;
+		margin-left:-20px;
+		overflow:hidden;
+	}
+.二楼{
+	width:580px;
+	height:150px;
+	background-color:#FCC;
+	margin-left:55px;
+	overflow:hidden;}
+.二楼第二层wy2{
+	 	width: 600px;
+		height:50px;
+		background-color:#C00;
+		margin-left:45px;
+		margin-top:-495px;
+		overflow:hidden;
+	}
+.隔层1{
+	width:620px;
+	height:15px;
+	background-color:#F90;
+	margin-left:33px;
+	}
+.隔层2{
+	width:640px;
+	height:20px;
+	background-color:#C00;
+	margin-left:25px;
+	overflow:hidden;}
+.粉小隔断{
+	width:640px;
+	height:7px;
+	background-color:#F6C;
+	float:left;
+	margin-top:7px;}
+.隔层3{
+	width:620px;
+	height:35px;
+	background-color:#2f7277;
+	margin-left:33px;}
+.红小隔层{
+		width: 523px;     
+        border-bottom:200px solid transparent ; 
+		border-top: 20px solid #900;  
+        border-left: 50px solid transparent;          
+        border-right: 50px solid transparent; }	
+.三楼屋顶{
+		width: 520px;     
+        border-bottom: 30px solid #2f7277; 
+		border-top: 20px solid transparent;  
+        border-left: 86px solid transparent;          
+        border-right: 86px solid transparent;
+		margin-top:-43px;
+		}
+.三楼屋顶2{
+	width: 523px;     
+        border-bottom:235px solid transparent ; 
+		border-top: 30px solid #900;  
+        border-left: 37px solid transparent;          
+        border-right: 37px solid transparent; 
+		margin-left:30px;
+		
+		}
+.bb{
+	width:600px;
+	height:7px;
+	background-color:#5A2623;
+	margin-bottom:0px;
+	margin-left:-27px;}	
+.三楼{
+	width:580px;
+	height:150px;
+	background-color:#FCC;
+	margin-left:50px;
+	margin-top:-234px;
+	overflow:hidden;
+	}	
+.三下隔层1{
+	width:620px;
+	height:25px;
+	background-color:#F90;
+	margin-left:33px;
+	}
+.三下隔层2{
+	width:640px;
+	height:100px;
+	background-color:#C00;
+	margin-left:25px;
+	overflow:hidden;}
+.三下粉小隔断{
+	width:640px;
+	height:10px;
+	background-color:#F6C;
+	margin-top:10px;}
+.大三角{
+	width:0px;
+	height:0px;
+	border:120px transparent solid;	
+	border-bottom-color:#2f7277;
+	margin-top:-240px;
+	margin-left:230px;
+	}
+.中三角{
+	width:0px;
+	height:0px;
+	border:110px transparent solid;	
+	border-bottom-color:#5A2623;
+	margin-top:-100px;
+	margin-left:-110px;
+	}	
+.小三角{
+	width:0px;
+	height:0px;
+	border:70px transparent solid;	
+	border-bottom-color:orange;
+	margin-top:-40px;
+	margin-left:-70px;
+	}
+.底层顶{
+	width:1165px;
+	height:40px;
+	background-color:#600;
+	margin-left:-240px;}
+.底层屋檐1{
+	width: 600px;     
+        border-bottom: 300px solid transparent; 
+		border-top: 30px solid #2f7277;  
+        border-left: 50px solid transparent;          
+        border-right: 50px solid transparent; 
+		margin-top:-40px;
+	}	
+.底层屋檐2{
+	width:540px;     
+        border-bottom: 290px solid transparent; 
+		border-top: 30px solid #C30;  
+        border-left: 50px solid transparent;          
+        border-right: 50px solid transparent; 
+		margin-top:-10px;
+		margin-left:-18px;
+	}
+.底层{
+	width:1165px;
+	height:200px;
+	background-color:#FCC;
+	margin-left:-240px;
+	margin-top:-600px;}
+.楼梯顶{
+	width:1200px;
+	height:100px;
+	margin-left:-250px;
+	margin-top:-60px;
+	background-color:#C30;}	
+.大楼梯{
+	 width: 1200px;     
+        border-bottom: 200px solid #E1BD95; 
+		border-top: 50px solid transparent;  
+        border-left: 200px solid transparent;          
+        border-right: 200px solid transparent;
+		margin-left:-450px;
+		margin-top:-65px;
+		 }
+.中楼梯{
+	 width:700px;     
+        border-bottom: 200px solid yellow; 
+		border-top: 50px solid transparent;  
+        border-left: 150px solid transparent;          
+        border-right: 150px solid transparent;
+		margin-left:100px;
+		margin-top:-50px;
+		float:left;}
+</style>
+</head>
+
+<body>
+<div class="背景">
+	<div class="屋顶">
+    		<div class="顶柱1">
+			</div>
+            <div class="顶柱2">
+			</div>
+            <div class="顶柱3">
+			</div>
+            <div class="顶柱4">
+			</div>
+	</div>
+    <div class="第二层wy">
+    		<div class="paizi">
+            	<div class="pz2">滕王阁</div>
+            </div>
+    </div>
+	<div class="第一层wy"></div>
+    <div class="一楼">
+    		<div class="zhuzi1"></div>
+            <div class="ch1">
+            	<div class="chz1"></div>
+            </div>
+            <div class="zhuzi2"></div>
+            <div class="ch2">
+            	<div class="chz2"></div>
+            </div>
+            <div class="zhuzi3"></div>
+            <div class="ch3">
+            	<div class="chz3"></div>
+            </div>
+            <div class="zhuzi4"></div>
+             <div class="ch4">
+            	<div class="chz4"></div>
+            </div>
+            <div class="zhuzi5"></div>
+             <div class="ch5">
+            	<div class="chz5"></div>
+            </div>
+            <div class="zhuzi6"></div>
+    </div>	
+    <div class="二楼第二层wy"></div>
+    <div class="二楼屋檐">
+            	<div class="二楼第一层wy"></div>
+                </div>
+    <div class="二楼第二层wy2"></div>  
+    <div class="二楼">
+    			<div class="zhuzi1"></div>
+            <div class="ch1">
+            	<div class="chz1"></div>
+            </div>
+            <div class="zhuzi2"></div>
+            <div class="ch2">
+            	<div class="chz2"></div>
+            </div>
+            <div class="zhuzi3"></div>
+            <div class="ch3">
+            	<div class="chz3"></div>
+            </div>
+            <div class="zhuzi4"></div>
+             <div class="ch4">
+            	<div class="chz4"></div>
+            </div>
+            <div class="zhuzi5"></div>
+             <div class="ch5">
+            	<div class="chz5"></div>
+            </div>
+            <div class="zhuzi6"></div>
+    </div>	
+	<div class="隔层1"></div>
+    <div class="隔层2">
+    		<div class="粉小隔断"></div>
+    </div>
+    <div class="隔层3">
+    		<div class="红小隔层"></div>
+    </div>
+    <div class="三楼屋顶"></div>
+    <div class="三楼屋顶2">
+    		<div class="bb"></div>
+    </div>
+    <div class="三楼">
+    <div class="zhuzi1"></div>
+            <div class="ch1">
+            	<div class="chz1"></div>
+            </div>
+            <div class="zhuzi2"></div>
+            <div class="ch2">
+            	<div class="chz2"></div>
+            </div>
+            <div class="zhuzi3"></div>
+            <div class="ch3">
+            	<div class="chz3"></div>
+            </div>
+            <div class="zhuzi4"></div>
+             <div class="ch4">
+            	<div class="chz4"></div>
+            </div>
+            <div class="zhuzi5"></div>
+             <div class="ch5">
+            	<div class="chz5"></div>
+            </div>
+            <div class="zhuzi6"></div>
+    </div>
+    <div class="三下隔层1">
+    <table width="620" border="5" cellspacing="0" cellpadding="0" bgcolor="#FCC" bordercolor="#990033">
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</div>
+    <div class="三下隔层2">
+    		<div class="三下粉小隔断"></div>
+    </div>
+    <div class="大三角">
+    		<div class="中三角">
+            		<div class="小三角"></div>
+            </div>
+    </div>
+    <div class="底层顶"></div>
+    <div class="底层屋檐1">
+    		<div class="底层屋檐2"></div>
+    </div>
+    <div class="底层">
+    		<div class="zhuzi1"></div>
+            <div class="ch1">
+            	<div class="chz1"></div>
+            </div>
+            <div class="zhuzi2"></div>
+            <div class="ch2">
+            	<div class="chz2"></div>
+            </div>
+            <div class="zhuzi3"></div>
+            <div class="ch3">
+            	<div class="chz3"></div>
+            </div>
+            <div class="zhuzi4"></div>
+             <div class="ch4">
+            	<div class="chz4"></div>
+            </div>
+            <div class="zhuzi5"></div>
+             <div class="ch5">
+            	<div class="chz5"></div>
+            </div>
+            <div class="zhuzi6"></div>
+            <div class="ch6">
+            	<div class="chz6"></div>
+            </div>
+            <div class="zhuzi7"></div>
+            <div class="ch7">
+            	<div class="chz7"></div>
+            </div>
+            <div class="zhuzi8"></div>
+             <div class="ch8">
+            	<div class="chz8"></div>
+            </div>
+            <div class="zhuzi9"></div>
+             <div class="ch9">
+            	<div class="chz9"></div>
+            </div>
+            <div class="zhuzi10"></div>
+             <div class="ch10">
+            	<div class="chz10"></div>
+            </div>
+    </div>
+    <div class="楼梯顶">
+    <table width="1200"  height="70"border="3" cellspacing="3" cellpadding="0" bordercolor="#FFCC00">
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+    </div>   	
+    <div class="大楼梯">
+    	<div class="中楼梯" >
+        </div>
+    </div>
+    
+
+
+</div>
+</body>
+</html>
